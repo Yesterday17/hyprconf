@@ -1,0 +1,16 @@
+keypress_delay_ms: 20
+
+keymap:
+  - name: Global
+    remap:
+      SUPER_L-C: KEY_COPY
+      SUPER_L-V: KEY_PASTE
+      SUPER_L-X: KEY_CUT
+      SUPER_L-Z: KEY_UNDO
+      SHIFT_L-KEY_ESC: SHIFT_L-KEY_GRAVE
+        #  - name: Common Shortcuts
+        #  remap:
+      SUPER_L-F: CTRL_L-F
+      SUPER_L-A: CTRL_L-A
+      SUPER_L-W: CTRL_L-W
+      SUPER_L-T: CTRL_L-T
