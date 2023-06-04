@@ -1,0 +1,5 @@
+@theme "default"
+
+configuration {
+    font: "JetBrains Mono 14";
+}
