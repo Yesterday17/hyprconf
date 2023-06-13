@@ -1,5 +1,13 @@
-keypress_delay_ms: 20
+# keypress_delay_ms: 20
 
+modmap:
+  - name: Meta -> Ctrl
+    application:
+      only: 
+        - code-url-handler # Visual Studio Code
+    remap:
+      SUPER_L: CTRL_L
+    
 keymap:
   - name: Global
     remap:
